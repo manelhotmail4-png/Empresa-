@@ -1,0 +1,219 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast New</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 60px;
+        }
+
+        header p {
+            font-size: 22px;
+            margin-top: 15px;
+        }
+
+        nav {
+            background-color: #111827;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #60a5fa;
+        }
+
+        .card {
+            background-color: #1e293b;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .projetos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .botao:hover {
+            background-color: #1d4ed8;
+        }
+
+        footer {
+            background-color: #111827;
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>FAST NEW</h1>
+
+    <p>
+        Transformando ideias em tecnologia.
+    </p>
+
+    <a href="#projetos" class="botao">
+        Conheça nossos projetos
+    </a>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#equipe">Equipe</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <h2>Sobre a Fast New</h2>
+
+    <div class="card">
+        <p>
+            A Fast New nasceu da amizade e da paixão por tecnologia.
+            Nosso objetivo é criar jogos, softwares e soluções
+            inovadoras que possam impactar milhares de pessoas.
+        </p>
+    </div>
+</section>
+
+<section id="equipe">
+    <h2>Nossa Equipe</h2>
+
+    <div class="card">
+        <p><strong>CEO e Engenharia de Software:</strong> Emanuel</p>
+
+        <p><strong>Game Designer:</strong> Responsável pelas ideias e mecânicas dos jogos.</p>
+
+        <p><strong>Programadores:</strong> Desenvolvimento dos sistemas e jogos.</p>
+
+        <p><strong>Testadores:</strong> Encontram bugs e ajudam a melhorar os projetos.</p>
+    </div>
+</section>
+
+<section id="projetos">
+    <h2>Projetos</h2>
+
+    <div class="projetos">
+
+        <div class="card">
+            <h3>RPG de Texto</h3>
+
+            <p>
+                RPG inspirado em aventuras com níveis,
+                inventário, combate e mundos.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Jogo Futuro</h3>
+
+            <p>
+                Projeto secreto que será desenvolvido
+                pela equipe Fast New.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Aplicativos</h3>
+
+            <p>
+                Aplicativos úteis para facilitar a vida das pessoas.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="servicos">
+    <h2>Serviços</h2>
+
+    <div class="card">
+        <ul>
+            <li>🎮 Desenvolvimento de Jogos</li>
+            <li>💻 Desenvolvimento de Softwares</li>
+            <li>🌐 Criação de Sites</li>
+            <li>🖥️ Assistência Técnica para PCs</li>
+            <li>⚙️ Montagem e Configuração de Computadores</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+
+    <div class="card">
+        <p>Email: contato@fastnew.com</p>
+
+        <p>GitHub: github.com/fastnew</p>
+
+        <p>
+            "O futuro é criado por quem começa hoje."
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Fast New - Todos os direitos reservados.</p>
+
+    <p>Fundada por jovens apaixonados por tecnologia.</p>
+</footer>
+
+</body>
+</html>
